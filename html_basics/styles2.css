@@ -1,0 +1,23 @@
+body {
+    /* background-color: azure; */
+    /* background-image: url(https://img.freepik.com/premium-photo/aesthetic-cityscape-synthwave-retrowave-wallpaper-with-cool-vibrant-neon-design_398492-5602.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed; */
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    background-color: bisque;
+    text-align:left;
+    text-transform: capitalize;
+    letter-spacing: 20px; /* to add space between letters of the word */
+
+}
+
+p {
+    color: black;
+    line-height: 50px;
+    word-spacing: 10px;
+    text-indent: 50px;
+}

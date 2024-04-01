@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            border: 3px solid red ;
+            border-bottom: 3px solid black;
+        }
+        th, td {
+            padding: 20px;
+            /* border-spacing: 25px; */
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <table border="1" bgcolor="white">
+
+        <thead>
+            <tr bgcolor="blue">
+                <th>Name</th>
+                <th>Age</th>
+                <th bgcolor="green">Branch</th>
+                <th>Company type</th>
+                <th>Past companies</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Sanket</td>
+                <td>25</td>
+                <td>CSE</td>
+                <td>MNC</td>
+                <td rowspan="4">Ex-Linkedin</td>
+            </tr>
+            <tr>
+                <td>Sarthak</td>
+                <td>25</td>
+                <td style="background-color: red;">IT</td>
+                <td>Startup</td>
+            </tr>
+            <tr>
+                <td>Tanmay</td>
+                <td>26</td>
+                <td>IT</td>
+                <td>Startup</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">The end</td>
+            </tr>
+        </tbody>
+        
+
+    </table>
+
+</body>
+</html>

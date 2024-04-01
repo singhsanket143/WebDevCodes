@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form action="" method="post" enctype="" target="_blank" >
+        
+        <label for="user_age">Enter your current Age</label>
+        <input type="number" placeholder="enter your age" name="age_of_user" id="user_age" required />
+
+        <br>
+
+        <label for="current_date">Current date</label>
+        <input type="datetime-local" name="current_date" id="current_date"/>
+
+        <br>
+
+
+        <label for="">Email</label>
+        <input type="email" placeholder="enter your email" name="email_of_user">
+
+        <br>
+        <label for="">Password</label>
+        <input type="password" placeholder="enter your password" name="password_of_user">
+
+        <input type="hidden" name="hidden_property" value="something">
+
+
+        <br>
+        <input type="reset" value="Reset form">
+        <input type="submit" value="Submit form"/>
+    </form>
+    
+</body>
+</html>

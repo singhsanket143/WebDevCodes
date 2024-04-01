@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+#div1 {
+    border: solid red 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    /* width: 400px; */
+    min-height: 50px;
+    background-color: aqua !important;
+    /* outline: dashed aquamarine 10px; */
+}
+
+#div2 {
+    border: solid blue 5px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+#div3 {
+    border: solid green 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+#div1 {
+    background-color: greenyellow;
+}

@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    background-attachment: fixed; /* this property is adding the parallax effect*/
+    background-size: cover;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: white;
+}
+
+.first-image {
+    background-image: url(images/1.jpeg);
+    min-height: 500px;
+    opacity: 0.8;
+}
+
+.second-image {
+    background-image: url(images/2.webp);
+    min-height: 500px;
+}
+
+
+.third-image {
+    background-image: url(images/3.jpeg);
+    min-height: 500px;
+}
+
+.fourth-image {
+    background-image: url(images/1.jpeg);
+    min-height: 500px;
+    opacity: 0.8;
+}
+
+.text-content {
+    position: relative;
+    top: 200px;
+    left: 550px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    max-width: 25%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+#popup {
+    /* display: none; */
+    position: relative;
+    top: 0;
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 500px;
+ 
+}
+
+#popup-text {
+    position: static;
+    top: 100px;
+    left: 10px;
+}

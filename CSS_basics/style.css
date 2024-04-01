@@ -1,0 +1,32 @@
+* {
+    background-color: azure;
+}
+.heading {
+    color: red;
+    font-weight: bolder;
+}
+
+#middle , p {
+    color: blue;
+}
+
+
+h1 {
+    font-size: xx-large;
+}
+p {
+    font-size: xx-large;
+}
+
+/* This is some comment */
+/* p {
+    color: green; 
+} 
+*/
+
+/*
+This is 
+a multi
+line
+comment
+*/
