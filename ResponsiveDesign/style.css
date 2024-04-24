@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    height: 75px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 5px;
+    padding: 3px 2px;
+    background-color: greenyellow;
+}
+
+li {
+    border: 1px solid aquamarine;
+    padding: 4px 5px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+
+span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    /* Apply the following styles if minimum width is 576px or width >= 576px*/
+    ul {
+        flex-direction: row;
+    }
+
+} 
+
+
+h1, h2, .navlink, #custom {
+    color: red;;
+}
+
+nav span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+li > span {
+    /* It will only pick immediate span child present in the li */
+    text-decoration: underline;
+}
+
+h1 ~ span {
+    color: blue;
+}
+
+#sample::after {
+    content: "After content";
+}
+
+
+#sample::first-line {
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+#sample::first-letter {
+    font-size: xx-large;
+}
+
+input::placeholder {
+    background-color: yellow;
+}

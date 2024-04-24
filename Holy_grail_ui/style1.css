@@ -1,0 +1,48 @@
+#parent {
+    width: 600px;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 1px solid greenyellow;
+
+    display: grid;
+    
+    grid-template-columns: 1fr;
+
+}
+
+.header {
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+}
+
+.footer {
+    border: 1px solid black;
+    text-align: center;
+    background-color:darkgoldenrod;
+}
+
+.menu {
+    border: 1px solid black;
+    font-size: small;
+    background-color: darkseagreen;
+}
+
+.ads {
+    border: 1px solid black;
+    font-size: small;
+    background-color: cyan;
+    padding: 25px;
+}
+
+.content {
+    border: 1px solid black;
+    text-align: center;   
+    padding: 10px;
+    background-color: beige;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+}
